@@ -8,6 +8,8 @@ body {
 
     background-color: #7b2cbf;
     font-family: Arial, sans-serif;
+
+    overflow: hidden;
 }
 
 h1 {
@@ -16,6 +18,9 @@ h1 {
     margin-top: 40px;
     margin-bottom: 30px;
     font-size: 40px;
+
+    position: relative;
+    z-index: 2;
 }
 
 img {
@@ -25,4 +30,98 @@ img {
 
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+
+    position: relative;
+    z-index: 2;
+}
+
+.gatos-fondo {
+    position: fixed;
+    inset: 0;
+
+    pointer-events: none;
+    z-index: 1;
+}
+
+.gatos-fondo span {
+    position: absolute;
+    font-size: 45px;
+    opacity: 0.35;
+}
+
+/* Posiciones de los gatos */
+
+.gatos-fondo span:nth-child(1) {
+    top: 10%;
+    left: 5%;
+}
+
+.gatos-fondo span:nth-child(2) {
+    top: 20%;
+    left: 25%;
+}
+
+.gatos-fondo span:nth-child(3) {
+    top: 8%;
+    right: 10%;
+}
+
+.gatos-fondo span:nth-child(4) {
+    top: 35%;
+    right: 5%;
+}
+
+.gatos-fondo span:nth-child(5) {
+    top: 50%;
+    left: 8%;
+}
+
+.gatos-fondo span:nth-child(6) {
+    top: 65%;
+    right: 15%;
+}
+
+.gatos-fondo span:nth-child(7) {
+    bottom: 10%;
+    left: 20%;
+}
+
+.gatos-fondo span:nth-child(8) {
+    bottom: 5%;
+    right: 5%;
+}
+
+.gatos-fondo span:nth-child(9) {
+    top: 45%;
+    left: 35%;
+}
+
+.gatos-fondo span:nth-child(10) {
+    bottom: 20%;
+    right: 30%;
+}
+
+.gatos-fondo span:nth-child(11) {
+    top: 15%;
+    left: 45%;
+}
+
+.gatos-fondo span:nth-child(12) {
+    bottom: 15%;
+    left: 5%;
+}
+
+.gatos-fondo span:nth-child(13) {
+    top: 30%;
+    left: 12%;
+}
+
+.gatos-fondo span:nth-child(14) {
+    bottom: 30%;
+    right: 8%;
+}
+
+.gatos-fondo span:nth-child(15) {
+    top: 5%;
+    right: 40%;
 }
