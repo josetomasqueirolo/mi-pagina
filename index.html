@@ -31,7 +31,29 @@
 
     <h1>Meme de gato del día 🐱</h1>
 
-    <img src="foto.jpg" alt="Meme de gato del día">
+    <div class="carrusel">
+
+        <button class="boton" id="anterior" aria-label="Meme anterior">
+            ←
+        </button>
+
+        <img
+            id="meme"
+            src="memes/gato1.jpg"
+            alt="Meme de gato"
+        >
+
+        <button class="boton" id="siguiente" aria-label="Siguiente meme">
+            →
+        </button>
+
+    </div>
+
+    <div class="contador" id="contador">
+        1 / 5
+    </div>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
