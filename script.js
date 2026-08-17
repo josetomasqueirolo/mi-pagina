@@ -1,4 +1,5 @@
 const memes = [
+    "memes/felis_primer_dia.png",
     "memes/foto.jpg",
     "memes/foto 2.jpg",
     "memes/foto 3.jpg",
